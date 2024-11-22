@@ -1,0 +1,98 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin: 20px 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Div contenedor de datos */
+div {
+    margin: 15px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Formulario */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: #fdfdfd;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #f7fff7;
+}
+
+/* Links de navegación */
+a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #4CAF50;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #3a8d41;
+}
